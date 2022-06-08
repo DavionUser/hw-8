@@ -1,8 +1,9 @@
 package homework8;
 
-public class Rectangle implements Shape {
+public class Rectangle extends Shape {
+
     @Override
-    public void print() {
-        System.out.println(DEFAULT_STRING + "rectangle");
+    String getName() {
+        return "rectangle";
     }
 }

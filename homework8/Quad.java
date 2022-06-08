@@ -1,8 +1,9 @@
 package homework8;
 
-public class Quad implements Shape {
+public class Quad extends Shape {
+
     @Override
-    public void print() {
-        System.out.println(DEFAULT_STRING + "quad");
+    String getName() {
+        return "quad";
     }
 }

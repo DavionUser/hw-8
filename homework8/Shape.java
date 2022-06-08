@@ -1,7 +1,8 @@
 package homework8;
 
-public interface Shape {
+abstract class Shape {
     String DEFAULT_STRING = "Current shape is ";
+    private String name;
 
-    void print();
+    abstract String getName();
 }

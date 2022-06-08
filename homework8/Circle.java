@@ -1,8 +1,9 @@
 package homework8;
 
-public class Circle implements Shape {
+public class Circle extends Shape {
+
     @Override
-    public void print() {
-        System.out.println(DEFAULT_STRING + "circle");
+    String getName() {
+        return "circle";
     }
 }
