@@ -8,10 +8,11 @@ public class Main {
         Shape rectangle = new Rectangle();
         Shape hexagon = new Hexagon();
 
-        System.out.println(circle.DEFAULT_STRING + PrintShape.print(circle));
-        System.out.println(quad.DEFAULT_STRING + PrintShape.print(quad));
-        System.out.println(triangle.DEFAULT_STRING + PrintShape.print(triangle));
-        System.out.println(rectangle.DEFAULT_STRING + PrintShape.print(rectangle));
-        System.out.println(hexagon.DEFAULT_STRING + PrintShape.print(hexagon));
+        System.out.println(PrintShape.print(circle));
+        System.out.println(PrintShape.print(quad));
+        System.out.println(PrintShape.print(triangle));
+        System.out.println(PrintShape.print(rectangle));
+        System.out.println(PrintShape.print(hexagon));
+
     }
 }

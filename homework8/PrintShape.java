@@ -3,6 +3,6 @@ package homework8;
 public class PrintShape {
 
     public static String print(Shape shape) {
-        return shape.getName();
+        return (shape.DEFAULT_STRING + shape.getName());
     }
 }
