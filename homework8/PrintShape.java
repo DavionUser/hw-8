@@ -1,8 +1,9 @@
 package homework8;
 
 public class PrintShape {
+    public static final String DEFAULT_STRING = "Current shape is ";
 
-    public static String print(Shape shape) {
-        return (shape.DEFAULT_STRING + shape.getName());
+    public static void print(Shape shape) {
+        System.out.println(DEFAULT_STRING + shape.getName());
     }
 }
